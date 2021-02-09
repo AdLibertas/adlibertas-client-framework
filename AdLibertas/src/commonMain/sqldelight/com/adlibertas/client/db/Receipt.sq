@@ -1,0 +1,13 @@
+CREATE TABLE Receipt (
+    receipt_hash TEXT NOT NULL UNIQUE
+);
+
+insertReceipt:
+INSERT OR REPLACE INTO Receipt(receipt_hash)
+VALUES (?);
+
+selectByReceiptHash:
+SELECT * FROM Receipt WHERE receipt_hash = ? LIMIT 1;
+
+deleteAll:
+DELETE FROM Receipt WHERE 1 = 1;

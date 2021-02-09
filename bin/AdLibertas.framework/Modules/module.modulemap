@@ -1,0 +1,6 @@
+framework module AdLibertas {
+    umbrella header "AdLibertas.h"
+
+    export *
+    module * { export * }
+}

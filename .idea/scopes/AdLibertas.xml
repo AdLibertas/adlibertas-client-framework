@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="AdLibertas" pattern="src[AdLibertas.AdLibertas]:*..*||src[AdLibertas.AdLibertas*]:*..*||src[AdLibertas]:*..*||test[AdLibertas.AdLibertas*]:*..*||test[AdLibertas.AdLibertas]:*..*||src[AdLibertas.buildSrc]:*..*" />
+</component>

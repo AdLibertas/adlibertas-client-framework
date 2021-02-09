@@ -1,0 +1,11 @@
+CREATE TABLE Product (
+sku TEXT NOT NULL UNIQUE,
+type TEXT NOT NULL
+);
+
+selectBySku:
+SELECT * FROM Product WHERE sku = ?;
+
+insertProduct:
+INSERT OR REPLACE INTO Product(sku, type)
+VALUES (?,?);

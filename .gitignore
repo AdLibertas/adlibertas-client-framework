@@ -1,0 +1,22 @@
+# ignore IDEA for cleaner development
+# share editor config and copyright scopes
+.idea/*
+!.idea/codeStyles
+!.idea/copyright
+!.idea/inspectionProfiles
+!/.idea/scopes
+
+# ignore build files
+*.iml
+.gradle
+/local.properties
+.DS_Store
+/build
+/buildSrc/build
+/captures
+.externalNativeBuild
+.cxx
+*.xcuserstate
+*.xcbkptlist
+*.env
+*/build
