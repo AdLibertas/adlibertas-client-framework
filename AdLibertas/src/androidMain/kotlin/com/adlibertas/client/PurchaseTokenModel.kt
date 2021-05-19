@@ -35,7 +35,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import org.koin.core.inject
+import org.koin.core.component.inject
 import org.koin.core.parameter.parametersOf
 import kotlin.math.pow
 

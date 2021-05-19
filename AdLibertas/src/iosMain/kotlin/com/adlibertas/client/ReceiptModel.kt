@@ -21,7 +21,7 @@ import co.touchlab.stately.ensureNeverFrozen
 import com.adlibertas.client.dao.DeviceDao
 import com.adlibertas.client.entity.Receipt
 import io.ktor.http.HttpStatusCode
-import org.koin.core.inject
+import org.koin.core.component.inject
 import org.koin.core.parameter.parametersOf
 
 internal class ReceiptModel : AdLibertasKoinComponent() {

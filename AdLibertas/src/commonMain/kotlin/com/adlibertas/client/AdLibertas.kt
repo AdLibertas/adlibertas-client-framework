@@ -21,7 +21,7 @@ import com.adlibertas.client.dao.deviceDaoImpl
 import kotlinx.coroutines.Dispatchers
 import org.koin.core.Koin
 import org.koin.core.KoinApplication
-import org.koin.core.KoinComponent
+import org.koin.core.component.KoinComponent
 import org.koin.core.module.Module
 import org.koin.core.parameter.parametersOf
 import org.koin.core.scope.Scope
